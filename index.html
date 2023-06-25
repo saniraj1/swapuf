@@ -4,6 +4,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsive.css">
     <link
       href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap"
       rel="stylesheet"
@@ -22,7 +23,7 @@
         </nav>
         <div class="header-text">
           <div class="title">
-            <h1>SWAPU</h1>
+            <h1>SHWAPU</h1>
             <p>Achieving what matters most to you</p>
             <div class="line">
               <div class="line-colour"></div>
@@ -78,13 +79,13 @@
           <div class="lists">
               <div class="our-services">
                   <ul>
-                      <li class="tab-links active-link" onclick="opentab('Brand Strategy')">Brand Strategy</li>
-                      <li  class="tab-links " onclick="opentab('Branding')">Branding</li>
-                      <li class="tab-links " onclick="opentab('Digital Marketing')">Digital Marketing</li>
-                      <li class="tab-links " onclick="opentab('Graphic Designing')">Graphic Designing</li>
-                      <li class="tab-links " onclick="opentab('Web')">Web Design Development</li>
-                      <li class="tab-links " onclick="opentab('Photography')" >Photography & Videography</li>
-                      <li  class="tab-links " onclick="opentab('Business')">Business Constultant & Development</li>
+                      <li class="tab-links active-link" onclick="opentab('Brand Strategy')" onmouseover="opentab('Brand Strategy')">Brand Strategy</li>
+                      <li  class="tab-links " onclick="opentab('Branding')"onmouseover="opentab('Branding')">Branding</li>
+                      <li class="tab-links " onclick="opentab('Digital Marketing')"onmouseover="opentab('Digital Marketing')">Digital Marketing</li>
+                      <li class="tab-links " onclick="opentab('Graphic Designing')"onmouseover="opentab('Graphic Designing')">Graphic Designing</li>
+                      <li class="tab-links " onclick="opentab('Web')"onmouseover="opentab('Web')">Web Design Development</li>
+                      <li class="tab-links " onclick="opentab('Photography')" onmouseover="opentab('Photography')">Photography & Videography</li>
+                      <li  class="tab-links " onclick="opentab('Business')"onmouseover="opentab('Business')">Business Constultant & Development</li>
                   </ul>
                   <div class="tab-contents active-tab" id="Brand Strategy">
                       
@@ -123,6 +124,43 @@
                   </div>
                   
               </div>
+
+              <!-- services mobile part -->
+<div class="services-smalldevice">
+  <button class="accordion">BrandStrategy</button>
+<div class="panel">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+
+<button class="accordion">Branding</button>
+<div class="panel">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+
+<button class="accordion">Digital Marketing</button>
+<div class="panel">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+
+<button class="accordion">Graphic Designing</button>
+<div class="panel">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+
+<button class="accordion">Web Design Development</button>
+<div class="panel">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+
+<button class="accordion">Photography & Videography</button>
+<div class="panel">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+<button class="accordion">Business Constultant & Development</button>
+<div class="panel">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+</div>
           </div>
       </div>
   </div>
@@ -132,7 +170,7 @@
     <div class="container">
         <h1>Portfolio</h1>
         <div class="portfolio-line"></div>
-        <div class="lists">
+        <div class="lists portfolio-lists">
             <div class="our-services1">
                 <div class="image-contents active-image" id="Brand1">
                     <img src="images/about.jpeg" alt="">
@@ -166,7 +204,7 @@
                 <ul>
                     <li class="image-links active-link1" onclick="clicktab('Brand1')" onmouseover="clicktab('Brand1')">Brand Strategy</li>
                     <li  class="image-links " onclick="clicktab('Branding1')" onmouseover="clicktab('Branding1')">Branding</li>
-                    <li class="image-links " onclick="clicktab('Digital1')"onmouseover="clicktab('Digital1')"Digital Marketing</li>
+                    <li  class="image-links " onclick="clicktab('Digital1')" onmouseover="clicktab('Digital1')">Digital Marketing</li>
                     <li class="image-links " onclick="clicktab('Graphic1')"onmouseover="clicktab('Graphic1')">Graphic Designing</li>
                     <li class="image-links " onclick="clicktab('Web1')"onmouseover="clicktab('Web1')">Web Design Development</li>
                     <li class="image-links " onclick="clicktab('Photography1')" onmouseover="clicktab('Photography1')">Photography & Videography</li>
@@ -180,14 +218,49 @@
                   <button><i class="fa-solid fa-link"></i></button>
                   <p>click here for</p>
                 </div>
-</div>
+<!-- portfolio mobile design slideshow -->
+<div class="slideshow-container">
+
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 3</div>
+    <img src="images/contact.jpeg" style="width:100%">
+    <div class="text">Digital Marketing</div>
+  </div>
+  
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 3</div>
+    <img src="images/background.jpeg" style="width:100%">
+    <div class="text">Graphics Designing</div>
+  </div>
+  
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 3</div>
+    <img src="images/contact.jpeg" style="width:100%">
+    <div class="text">Hosting</div>
+  </div>
+  
+  <a class="prev" onclick="plusSlides(-1)">❮</a>
+  <a class="next" onclick="plusSlides(1)">❯</a>
+  
+  </div>
+  <br>
+  
+  <div style="text-align:center" class="image-dots">
+    <span class="dot" onclick="currentSlide(1)"></span> 
+    <span class="dot" onclick="currentSlide(2)"></span> 
+    <span class="dot" onclick="currentSlide(3)"></span> 
+  </div>
+              </div>
+
+
       
 <!-- ------quote----- -->
 <div id="quote">
   <div class="container">
      <div class="flex">
       <div class="form-title">
-        <h1>Get Quote</h1>
+        <h1>Get A Quote</h1>
+        <div class="quote-line"></div>
     </div>
     <div class="form">
         <form action="" onsubmit="sendemail()">
@@ -204,7 +277,7 @@
  
 </div>
 
-    <!-- ------quote---   -->
+    <!-- ------contact---   -->
     <div id="contact">
       <div class="container">
        <div class="contact-title">
@@ -232,5 +305,6 @@
 
 
   <script src="index.js"></script>
+  <script src="accordion.js"></script>
   </body>
 </html>

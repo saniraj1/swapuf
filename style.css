@@ -37,6 +37,8 @@ nav button {
   font-weight: bold;
   font-size: 15px;
   transition: 0.4s;
+  position: relative;
+  right: 3rem;
 }
 nav button:hover {
   background-color: #ffbf00;
@@ -79,10 +81,10 @@ a {
 .header-text .title p {
   font-style: italic;
   letter-spacing: 4px;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
 }
 .line {
-  margin-top: 15rem;
+  margin-top: 9rem;
 }
 .line-colour {
   height: 4px;
@@ -91,12 +93,13 @@ a {
   margin: 1rem 0;
 }
 .line a {
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   text-decoration: none;
   color: white;
 }
 .line a:hover {
   color: #ffbf00;
+  text-decoration: underline;
 }
 .verticle-line {
   position: absolute;
@@ -175,7 +178,7 @@ a {
   margin-top: 16rem;
 }
 .service-line {
-  width: 19%;
+  width: 15rem;
   background-color: #ffbf00;
   height: 2px;
   position: relative;
@@ -241,7 +244,7 @@ a {
   font-size: 1.4rem;
   position: relative;
   font-family: "Lato", sans-serif;
-  /* flex-wrap: wrap; */
+  flex-wrap: wrap;
 }
 .tab-contents {
   display: none;
@@ -250,8 +253,14 @@ a {
   display: block;
   transition: 0.5s;
 }
+.services-smalldevice {
+  display: none;
+}
 
 /* -----Portfolio---- */
+.slideshow-container {
+  display: none;
+}
 #portfolio {
   height: 100vh;
   width: 100%;
@@ -269,7 +278,7 @@ a {
   margin-top: 14rem;
 }
 .portfolio-line {
-  width: 25%;
+  width: 15rem;
   background-color: #ffbf00;
   height: 2px;
   position: relative;
@@ -366,9 +375,17 @@ a {
   letter-spacing: 5px;
   margin-top: 14rem;
 }
+.quote-line {
+  width: 19rem;
+  background-color: #ffbf00;
+  height: 2px;
+  position: relative;
+  left: 25%;
+  top: 16%;
+}
 
 form {
-  margin-top: 10rem;
+  margin-top: 4rem;
   width: 83%;
   text-align: center;
   position: relative;
@@ -396,7 +413,7 @@ form .btn2 {
   background-color: #ffbf00;
   padding: 14px 60px;
   font-size: 16px;
-  margin-top: 20px;
+  /* margin-top: 20px; */
   cursor: pointer;
   border: 0px solid grey;
   display: block;
@@ -424,7 +441,7 @@ form .btn2 {
   margin-top: 14rem;
 }
 .contact-data {
-  margin-top: 6rem;
+  margin-top: 4rem;
   position: relative;
   left: 27%;
 }
@@ -452,7 +469,7 @@ form .btn2 {
 }
 
 .contact-line {
-  width: 25%;
+  width: 15rem;
   background-color: #ffbf00;
   height: 2px;
   position: relative;
